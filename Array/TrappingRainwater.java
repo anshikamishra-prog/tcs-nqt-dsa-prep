@@ -1,7 +1,7 @@
 package Array;
 public class TrappingRainwater {
 
-    public static int trapped(int height[]) {
+    public int trapped(int height[]) {
 
         int n = height.length;
 
@@ -31,6 +31,7 @@ public class TrappingRainwater {
 
     public static void main(String[] args) {
         int height[] = {4,2,0,6,3,2,5};
-        System.out.println(trapped(height));
+        TrappingRainwater tp = new TrappingRainwater();
+        System.out.println(tp.trapped(height));
     }
 }
