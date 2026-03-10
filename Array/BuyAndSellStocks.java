@@ -1,6 +1,8 @@
 package Array;
 public class BuyAndSellStocks{
+
     public static int maximumProfit(int prices[]) {
+
         int minPrice = Integer.MAX_VALUE;   
         int maxProfit = 0 ;
 
